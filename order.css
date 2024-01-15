@@ -1,0 +1,73 @@
+body{
+    margin: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+.display{
+    display: flex;
+    flex-wrap: wrap;
+}
+h1{
+    margin: 0;
+    text-align: center;
+    padding: 5px;
+    background-color: darkgray;
+    width: 100%;
+}
+    .column1{
+        flex:45%;
+        padding: 10px;
+        background-color: aliceblue;
+    }
+    @media only screen and (max-width:600px){
+        .column1{
+            flex: 100%;
+            background-color: aliceblue;
+        }
+    }
+    .column2{
+        flex:45%;
+        padding: 10px;
+        background-color:azure;
+    }
+    label{
+        display: block;
+        text-align:left;
+        margin-right:100px;
+    }
+    input[type="text"],input[type="tel"],input[type="number"]{
+        padding: 10px;
+        width: 50%;
+        display: block;
+        margin:0 auto;
+        justify-content: center;
+        background-color: white;
+    }
+    input[type="submit"]{
+        display: block;
+        font-size: larger;
+        margin: auto;
+        padding:10px;
+        border-radius: 4px;
+        width:120px;
+       
+    }
+    input[type="submit"]:hover{
+        background-color: black;
+        color: azure;
+
+    }
+    .webbio{
+        text-align: center;
+        color: indigo;
+        font-family: Helvetica;
+        word-break:keep-all;
+    }
+    h6{
+        text-align: center;
+    }
+span{
+    color: red;
+}    
