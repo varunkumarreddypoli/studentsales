@@ -197,9 +197,6 @@ img{
 b {
     font-size: larger;
 }
-small{
-    margin-top: -25px;
-}
 del{
     margin-left: 10px;
     color: rgb(143, 130, 112);
@@ -222,5 +219,13 @@ i{
      color: blueviolet;
 }
 .flair{
-    width:200px;
+    width:100px;
+}
+h6{
+    margin-top: 10px;
+}
+p{
+    font-size: smaller;
+    padding: 0;
+    margin-top: -20px;
 }
