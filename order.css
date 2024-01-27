@@ -13,9 +13,11 @@ h1{
     margin: 0;
     text-align: center;
     padding: 5px;
-    background-color: darkgray;
+    background-color: rgb(246, 234, 234);
     width: 100%;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgba(48, 14, 243, 0.872);
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
     .column1{
         flex:45%;
@@ -43,24 +45,27 @@ h1{
         padding: 10px;
         width: 50%;
         display: block;
-        margin:0 auto;
-        justify-content: center;
-        background-color: rgba(255, 255, 255, 0);
+        margin: 0 auto;
         border: none;
-        border-bottom: 2px solid rgb(134, 136, 134);
+        justify-content: center;
+        background-color: aliceblue;
+        border-bottom: 2px solid black;
     }
     input[type="submit"]{
         display: block;
         font-size: larger;
         margin: auto;
         padding:10px;
-        border-radius: 4px;
+        border-radius:50px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         width:120px;
+        transition-duration: 0.8s;
+        border: 1px solid green;
+        background-color: azure;
     }
     input[type="submit"]:hover{
         background-color: black;
-        color: azure;
-
+        color:white;
     }
     .webbio{
         text-align: center;

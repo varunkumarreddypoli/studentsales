@@ -122,26 +122,39 @@ input[type="search"]{
         left: 0%;
         writing-mode: vertical-rl;
         align-items: flex-start;
-        border-radius: 8px;
-        height: 80px;
+        border-radius:50px;
+        height:40px;
+        padding:0px;
         z-index: 1;
         background-color:white;
+        border: 1px solid green;
         margin-top: 100px;
         color:black;
         vertical-align: middle;
     }
+    .bookleft:hover{
+        background-color: green;
+        color: white;
+    }
     .bookright{
         position: sticky;
         position: -webkit-sticky;
+        padding: 0;
         right: 0%;
         writing-mode:vertical-rl; 
         background-color:white;
-        border-radius: 8px;
+        border-radius: 50px;
         color:black;
         align-items: center;
-        height:80px;
+        border: 1px solid green;
+
+        height:40px;
         z-index:1;
         margin-top: 100px;
+    }
+    .bookright:hover{
+        background-color: green;
+        color: white;
     }
 }
 
@@ -172,7 +185,6 @@ h1{
     width: 0;
 }
 .box {
-    border: 1px solid rgb(245, 240, 240);
     border-radius: 4px;
     width:250px;
     height:auto;
@@ -193,6 +205,8 @@ img{
 }
 .box:hover{
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+    height:min-content;
+    margin-top: 10px;
 }
 b {
     font-size: larger;
